@@ -6,7 +6,7 @@ const activities = [
     duration: 'duration hours',
     materials: 'materials needed',
     ageGroup: 3,
-    category: 'outdoor'
+    category: 'outdoor 1'
   },
   {
     id: 2,
@@ -34,6 +34,15 @@ const activities = [
     materials: 'materials needed 4',
     ageGroup: 6,
     category: 'outdoor 4'
+  },
+  {
+    id: 5,
+    name: 'Name 5',
+    content: 'Content 5',
+    duration: 'duration hours 5',
+    materials: 'materials needed 5',
+    ageGroup: 7,
+    category: 'outdoor 1'
   },
 ]
 

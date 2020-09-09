@@ -1,5 +1,9 @@
 .find-button {
-  margin-right: 100%;
-  width: 100%;
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+.find-button {
   margin-top: 24px;
 }

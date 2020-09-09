@@ -7,7 +7,7 @@ ul {
 }
 
 div.collapse a {
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   color: grey;
   /* cursor: crosshair; */
   /* font-weight: 700; */

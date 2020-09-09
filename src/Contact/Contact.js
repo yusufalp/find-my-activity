@@ -4,8 +4,8 @@ import './Contact.css';
 export default function Contact() {
   return (
     <div>
-      <header>
-        <h1>Get in Touch</h1>
+      <header className='contact-page'>
+        <h2>Get in Touch</h2>
       </header>
       <section>
         <form action="" method="get">
@@ -15,10 +15,9 @@ export default function Contact() {
           <input type="email" name="" id="" />
           <label htmlFor="">Message</label>
           <textarea name="" id="" cols="30" rows="10"></textarea>
+          <button className="send-button" type="submit">Send</button>
         </form>
-        <button className="send-button" type="submit">Send</button>
       </section>
-      <hr />
     </div>
   )
 }

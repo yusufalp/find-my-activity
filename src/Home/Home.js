@@ -1,16 +1,16 @@
 import React from 'react';
+import './Home.css';
 
 export default function Home() {
   return (
     <div>
-      <header>
+      <header className='home-header'>
         <h1>Find My Activity</h1>
-        <button type='submit' >Find Activity</button>
-        <button type='submit' >Add Activity</button>
+        <a href='/find'>Find Activity</a>
+        <a href='/add'>Add Activity</a>
       </header>
       <section>
-        <h2>Section 1</h2>
-        <p>What is this website about?</p>
+        <h2>What is this website?</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur
           adipisicing elit. Accusamus, veniam
@@ -26,8 +26,7 @@ export default function Home() {
       </section>
       <hr />
       <section>
-        <h2>Section 2</h2>
-        <p>How to use this website?</p>
+        <h2>How to use this website?</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur
           adipisicing elit. Accusamus, veniam
