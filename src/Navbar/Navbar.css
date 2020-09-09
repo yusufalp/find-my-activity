@@ -1,0 +1,19 @@
+ul {
+  list-style: none;
+}
+
+#top-navbar {
+  padding: 0;
+}
+
+div.collapse a {
+  /* text-transform: uppercase; */
+  color: grey;
+  /* cursor: crosshair; */
+  /* font-weight: 700; */
+  /* font-size: 1.5rem; */
+}
+
+div.collapse a:hover {
+  color: #251605
+}
