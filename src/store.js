@@ -1,3 +1,22 @@
+const categories = [
+  {
+    id: 1,
+    category: 'outdoor 1'
+  },
+  {
+    id: 2,
+    category: 'outdoor 2'
+  },
+  {
+    id: 3,
+    category: 'outdoor 3'
+  },
+  {
+    id: 4,
+    category: 'outdoor 4'
+  },
+]
+
 const activities = [
   {
     id: 1,
@@ -46,4 +65,8 @@ const activities = [
   },
 ]
 
-export default activities;
+const data = [
+  categories, activities
+]
+
+export default data;

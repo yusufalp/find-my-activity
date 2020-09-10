@@ -1,7 +1,9 @@
 import React from 'react';
 
 const ActivityContext = React.createContext({
-  activities: []
+  categories: [],
+  activities: [],
+  updateData: () => { }
 })
 
 export default ActivityContext;

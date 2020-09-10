@@ -8,15 +8,25 @@ import AddActivity from './AddActivity/AddActivity';
 import About from './About/About';
 import Contact from './Contact/Contact';
 import ActivityContext from './ActivityContext/ActivityContext';
-import activities from './store';
+import data from './store';
 
 class App extends React.Component {
   state = {
-    activities: activities
+    categories: data[0],
+    activities: data[1]
+  }
+  updateData = (newActivity) => {
+    console.log(this.state.activities)
+    console.log(newActivity)
+    const updatedActivities = [...this.state.activities, newActivity]
+    // updateActivities.push({ name: 'Yusuf', content: 'Alp', category: 'outdoor 1' })
+    console.log(updatedActivities)
   }
   render() {
     const contextValue = {
-      activities: this.state.activities
+      categories: this.state.categories,
+      activities: this.state.activities,
+      updateData: this.updateData()
     }
     return (
       <div className="App">

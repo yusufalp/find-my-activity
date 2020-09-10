@@ -5,13 +5,15 @@ import './FindActivity.css';
 class FindActivity extends React.Component {
   static contextType = ActivityContext;
   state = {
+    categories: this.context.categories,
+    activities: this.context.activities,
     results: []
   }
 
   handleSubmit(e) {
     e.preventDefault();
     const category = e.target.category.value
-    const results = this.context.activities.filter(activity =>
+    const results = this.state.activities.filter(activity =>
       activity.category === category)
     this.setState({
       results: results
@@ -19,7 +21,6 @@ class FindActivity extends React.Component {
   }
 
   render() {
-    const { activities } = this.context
     return (
       <div>
         <header>
@@ -27,15 +28,15 @@ class FindActivity extends React.Component {
         </header>
         <section>
           <form onSubmit={e => this.handleSubmit(e)}>
-            <label htmlFor="">Categories</label>
+            <label htmlFor="category">Categories</label>
             <select name="category" id="category" v>
-              <option disabled>Select a category</option>
-              {activities.map((activity, i) =>
+              <option selected disabled>Select a category</option>
+              {this.state.categories.map((category, i) =>
                 <option
                   key={i}
-                  value={activity.category}
+                  value={category.category}
                 >
-                  {activity.category}
+                  {category.category}
                 </option>
               )}
             </select>
@@ -53,6 +54,7 @@ class FindActivity extends React.Component {
               <p>Details: {result.content}</p>
               <p>Duration: {result.duration}</p>
               <p>Materials: {result.materials}</p>
+              <p>Age Group: {result.ageGroup}</p>
             </section>
           )
         }
