@@ -29,8 +29,8 @@ class FindActivity extends React.Component {
         <section>
           <form onSubmit={e => this.handleSubmit(e)}>
             <label htmlFor="category">Categories</label>
-            <select name="category" id="category" v>
-              <option selected disabled>Select a category</option>
+            <select name="category" id="category" required>
+              <option value="">Select a category</option>
               {this.state.categories.map((category, i) =>
                 <option
                   key={i}

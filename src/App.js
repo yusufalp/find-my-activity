@@ -16,17 +16,16 @@ class App extends React.Component {
     activities: data[1]
   }
   updateData = (newActivity) => {
-    console.log(this.state.activities)
-    console.log(newActivity)
     const updatedActivities = [...this.state.activities, newActivity]
-    // updateActivities.push({ name: 'Yusuf', content: 'Alp', category: 'outdoor 1' })
-    console.log(updatedActivities)
+    this.setState({
+      activities: updatedActivities
+    })
   }
   render() {
     const contextValue = {
       categories: this.state.categories,
       activities: this.state.activities,
-      updateData: this.updateData()
+      updateData: this.updateData
     }
     return (
       <div className="App">

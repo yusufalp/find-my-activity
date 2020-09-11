@@ -28,8 +28,8 @@ class AddActivity extends React.Component {
       ageGroup,
       category
     }
-    this.state.activities.push(newActivity);
     this.context.updateData(newActivity);
+    this.props.history.push('/');
   }
   handleNameChange(value) {
     this.setState({
@@ -68,16 +68,16 @@ class AddActivity extends React.Component {
             <label htmlFor="materials">Materials</label>
             <input type="text" name="materials" id="materials" onChange={e => this.handleMaterialsChange(e.target.value)} />
             <label htmlFor="ageGroup">Age Group</label>
-            <select name="ageGroup" id="ageGroup">
-              <option selected disabled>Select an age group</option>
+            <select name="ageGroup" id="ageGroup" required>
+              <option value="">Select an age group</option>
               <option>Option 1</option>
               <option>Option 2</option>
               <option>Option 3</option>
               <option>Option 4</option>
             </select>
             <label htmlFor="categories">Categories</label>
-            <select name="categories" id="categories">
-              <option selected disabled>Select a category</option>
+            <select name="categories" id="categories" required>
+              <option value="">Select a category</option>
               {this.state.categories.map((category, i) =>
                 <option key={i}>{category.category}</option>
               )}
