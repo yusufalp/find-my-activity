@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 export default function Home() {
@@ -6,8 +7,8 @@ export default function Home() {
     <div>
       <header className='home-header'>
         <h1>Find My Activity</h1>
-        <a href='/find'>Find Activity</a>
-        <a href='/add'>Add Activity</a>
+        <Link href='/find'>Find Activity</Link>
+        <Link href='/add'>Add Activity</Link>
       </header>
       <section>
         <h2>What is this website?</h2>
