@@ -7,8 +7,8 @@ export default function Home() {
     <div>
       <header className='home-header'>
         <h1>Find My Activity</h1>
-        <Link href='/find'>Find Activity</Link>
-        <Link href='/add'>Add Activity</Link>
+        <Link to='/find'>Find Activity</Link>
+        <Link to='/add'>Add Activity</Link>
       </header>
       <section>
         <h2>What is this website?</h2>
