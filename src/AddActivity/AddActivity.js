@@ -56,6 +56,11 @@ class AddActivity extends React.Component {
       <div>
         <header>
           <h2>Add Activity</h2>
+          <p>
+            In this section, you can share your activity with our community by filling out the 
+            form below and let people find it by searching through our list of activities. 
+            Thank you in advance for sharing.
+          </p>
         </header>
         <section>
           <form method="get" onSubmit={e => this.handleDataSubmit(e)}>

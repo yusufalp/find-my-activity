@@ -25,6 +25,10 @@ class FindActivity extends React.Component {
       <div>
         <header>
           <h2>Find Activity</h2>
+          <p>
+            In this section, you can search activities from the categories listed below and 
+            click find. The results will be listed below.
+          </p>
         </header>
         <section>
           <form onSubmit={e => this.handleSubmit(e)}>
