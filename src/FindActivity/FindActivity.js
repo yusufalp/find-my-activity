@@ -5,18 +5,16 @@ import './FindActivity.css';
 class FindActivity extends React.Component {
   static contextType = ActivityContext;
   state = {
-    categories: this.context.categories,
-    activities: this.context.activities,
     results: []
   }
 
   handleSubmit(e) {
     e.preventDefault();
     const category = e.target.category.value
-    const results = this.state.activities.filter(activity =>
+    const results = this.context.activities.filter(activity =>
       activity.category === category)
     this.setState({
-      results: results
+      results
     })
   }
 
@@ -26,7 +24,7 @@ class FindActivity extends React.Component {
         <header>
           <h2>Find Activity</h2>
           <p>
-            In this section, you can search activities from the categories listed below and 
+            In this section, you can search activities from the categories listed below and
             click find. The results will be listed below.
           </p>
         </header>
@@ -35,7 +33,7 @@ class FindActivity extends React.Component {
             <label htmlFor="category">Categories</label>
             <select name="category" id="category" required>
               <option value="">Select a category</option>
-              {this.state.categories.map((category, i) =>
+              {this.context.categories.map((category, i) =>
                 <option
                   key={i}
                   value={category.category}

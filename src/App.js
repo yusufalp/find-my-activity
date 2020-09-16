@@ -8,24 +8,40 @@ import AddActivity from './AddActivity/AddActivity';
 import About from './About/About';
 import Contact from './Contact/Contact';
 import ActivityContext from './ActivityContext/ActivityContext';
-import data from './store';
+import config from './config';
+// import data from './store';
 
 class App extends React.Component {
   state = {
-    categories: data[0],
-    activities: data[1]
+    categories: [],
+    activities: []
   }
-  updateData = (newActivity) => {
-    const updatedActivities = [...this.state.activities, newActivity]
-    this.setState({
-      activities: updatedActivities
-    })
+  componentDidMount() {
+    this.getData();
+  }
+  getData = () => {
+    const url = config.API_ENDPOINT
+    fetch(`${url}/api/categories`)
+      .then(res => res.json())
+      .then(categories => {
+        this.setState({
+          categories
+        })
+        return fetch(`${url}/api/activities`)
+      })
+      .then(res => res.json())
+      .then(activities => {
+        this.setState({
+          activities
+        })
+      })
+      .catch(err => console.log(err))
   }
   render() {
     const contextValue = {
       categories: this.state.categories,
       activities: this.state.activities,
-      updateData: this.updateData
+      getData: this.getData
     }
     return (
       <div className="App">

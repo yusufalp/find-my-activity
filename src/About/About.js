@@ -23,7 +23,7 @@ export default function About() {
           Yusuf is a teacher-turned-software engineer and a Life-long educator and learner 
           who is passionate about technology and education that makes our world better.
         </p>
-        <img src="public/images/yusuf-alp-300x299.jpg" alt="profile-pic" />
+        <img src="/images/yusuf-alp.jpg" alt="profile-pic" />
       </section>
     </div>
   )

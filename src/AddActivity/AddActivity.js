@@ -1,5 +1,6 @@
 import React from 'react';
 import ActivityContext from '../ActivityContext/ActivityContext';
+import config from '../config';
 import './AddActivity.css'
 
 class AddActivity extends React.Component {
@@ -20,17 +21,29 @@ class AddActivity extends React.Component {
     const materials = e.target.materials.value
     const ageGroup = e.target.ageGroup.value
     const category = e.target.categories.value
-    const newActivity = {
-      name,
-      content,
-      duration,
-      materials,
-      ageGroup,
-      category
-    }
-    this.context.updateData(newActivity);
-    this.props.history.push('/');
+
+    const url = config.API_ENDPOINT
+    fetch(`${url}/api/activities/`, {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json'
+      },
+      body: JSON.stringify({
+        name,
+        content,
+        duration,
+        materials,
+        ageGroup,
+        category
+      })
+    })
+      .then(() => {
+        this.context.getData()
+        this.props.history.push('/')
+      })
+      .catch(err => console.log(err))
   }
+
   handleNameChange(value) {
     this.setState({
       name: value.trim()
@@ -57,8 +70,8 @@ class AddActivity extends React.Component {
         <header>
           <h2>Add Activity</h2>
           <p>
-            In this section, you can share your activity with our community by filling out the 
-            form below and let people find it by searching through our list of activities. 
+            In this section, you can share your activity with our community by filling out the
+            form below and let people find it by searching through our list of activities.
             Thank you in advance for sharing.
           </p>
         </header>
