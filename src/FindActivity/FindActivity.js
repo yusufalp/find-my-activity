@@ -21,7 +21,7 @@ class FindActivity extends React.Component {
   render() {
     return (
       <div>
-        <header>
+        <header className="find-header">
           <h2>Find Activity</h2>
           <p>
             In this section, you can search activities from the categories listed below and

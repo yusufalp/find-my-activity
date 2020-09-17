@@ -1,8 +1,16 @@
-.social p {
-  display: inline;
-  margin: 0 12px;
+.social a {
+  display: block;
+  margin: 0 24px;
+  text-decoration: none;
+  color: #C58882;
 }
 
 .social {
   text-align: center;
+}
+
+@media all and (min-width:378px) {
+  .social a {
+    display: inline;
+  }
 }

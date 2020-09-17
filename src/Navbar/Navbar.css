@@ -3,17 +3,41 @@ ul {
 }
 
 #top-navbar {
+  background-color: #DF928E;
   padding: 0;
 }
 
-div.collapse a {
-  text-transform: uppercase;
-  color: grey;
-  /* cursor: crosshair; */
-  /* font-weight: 700; */
-  /* font-size: 1.5rem; */
+.nav-link {
+  color: #1D201F;
+  cursor: crosshair;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
-div.collapse a:hover {
-  color: #251605
+#top-navbar a {
+  font-size: 14px;
+}
+
+.navbar-nav {
+  display: block;
+}
+
+@media all and (min-width:590px) {
+  #top-navbar a {
+    font-size: 24px;
+  }
+}
+
+@media all and (min-width:378px) {
+  #top-navbar a {
+    font-size: 18px;
+  }
+
+  .navbar-nav {
+    display: flex;
+  }
+
+  header {
+    margin-top: 150px;
+  }
 }

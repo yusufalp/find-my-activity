@@ -1,9 +1,11 @@
-.send-button {
-  width: 50%;
-  margin: auto;
-  display: block;
+.send-content {
+  margin: 0;
+  padding: 0;
+  width: 75%;
 }
 
 .send-button {
+  margin-left: 0;
+  width: 56%;
   margin-top: 24px;
 }

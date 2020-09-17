@@ -1,6 +1,8 @@
 body {
-  margin: 0 20%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  color: #1D201F;
+  width: 80%;
+  margin: auto;
+  font-family: 'Grandstander', cursive, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -12,12 +14,54 @@ code {
     monospace;
 }
 
+.mainpage-header {
+  background-image: url('/images/colored-hands.png');
+  background-repeat: no-repeat;
+  background-position: top 7% center;
+}
+
 header {
-  margin-top: 60px;
-  margin-bottom: 48px;
+  margin-top: 190px;
+  margin-bottom: 60px;
   text-align: center;
 }
 
 footer {
-  margin-top: 180px;
+  margin-top: 120px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+input,
+label,
+textarea,
+select,
+form button {
+  display: block;
+  width: 50%;
+  margin-left: 10%;
+}
+
+label {
+  padding-top: 24px;
+}
+
+form button {
+  margin-top: 36px;
+}
+
+@media all and (min-width:590px) {
+  h1 {
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
 }

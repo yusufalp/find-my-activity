@@ -1,7 +1,19 @@
-.home-header a{
+.home-header a {
   border: 1px solid black;
   padding: 6px;
   margin: 0 6px;
   text-decoration: none;
-  color: black
+  color: black;
+}
+
+.home-links {
+  font-size: 18px;
+  display: block;
+  height: 60px;
+}
+
+@media all and (min-width:340px) {
+  .home-links {
+    display: inline;
+  }
 }

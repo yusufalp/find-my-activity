@@ -9,7 +9,6 @@ import About from './About/About';
 import Contact from './Contact/Contact';
 import ActivityContext from './ActivityContext/ActivityContext';
 import config from './config';
-// import data from './store';
 
 class App extends React.Component {
   state = {
@@ -46,6 +45,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <ActivityContext.Provider value={contextValue} >
+          <div className="mainpage-header">
+          </div>
           <Navbar />
           <main>
             <Route

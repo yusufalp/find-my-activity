@@ -8,9 +8,9 @@ class Footer extends React.Component {
       <footer>
         <section className="social">
           <h6>Copyrights &#169; Yusuf Alp {footerYear}</h6>
-          <p>Linkedin</p>
-          <p>Github</p>
-          <p>Twitter</p>
+          <a href="https://www.linkedin.com/in/yusuf-alp/">Linkedin</a>
+          <a href="https://github.com/yusufalp">Github</a>
+          <a href="mailto:alpyusuf007@gmail.com">Email</a>
         </section>
       </footer>
     )
