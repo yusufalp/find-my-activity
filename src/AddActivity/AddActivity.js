@@ -6,29 +6,32 @@ import './AddActivity.css'
 class AddActivity extends React.Component {
   static contextType = ActivityContext;
   state = {
-    categories: this.context.categories,
-    activities: this.context.activities,
     name: '',
     content: '',
     duration: '',
     materials: '',
+    error: null
   }
   handleDataSubmit(e) {
     e.preventDefault();
-    let name = e.target.name.value
-    let content = e.target.content.value
-    const durationEntered = e.target.duration.value
-    const ageGroup = e.target.ageGroup.value
+    let name = this.state.name
+    let content = this.state.content
+    const durationEntered = this.state.duration
+    const agegroup = e.target.agegroup.value
     const category = e.target.categories.value
     let duration = `${durationEntered} minutes`
     let materials = e.target.materials.value
 
+    if (!name || !content) {
+      this.setState({
+        error: "Name and content are required"
+      })
+      return
+    }
+
     if (materials === "") {
       materials = "No materials needed"
     }
-
-    name = name.trim()
-    content = content.trim()
 
     const url = config.API_ENDPOINT
     fetch(`${url}/api/activities/`, {
@@ -41,7 +44,7 @@ class AddActivity extends React.Component {
         content,
         duration,
         materials,
-        ageGroup,
+        agegroup,
         category
       })
     })
@@ -109,6 +112,7 @@ class AddActivity extends React.Component {
               name="duration"
               id="duration"
               placeholder="45"
+              min="0"
               onChange={e => this.handleDurationChange(e.target.value)}
               required />
             <label htmlFor="materials">Materials</label>
@@ -118,20 +122,20 @@ class AddActivity extends React.Component {
               id="materials"
               placeholder="Pencils, markers and paper"
               onChange={e => this.handleMaterialsChange(e.target.value)} />
-            <label htmlFor="ageGroup">Age Group*</label>
+            <label htmlFor="agegroup">Age Group*</label>
             <select
-              name="ageGroup"
-              id="ageGroup"
+              name="agegroup"
+              id="agegroup"
               required>
               <option value="">Select an age group</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-              <option>6</option>
-              <option>7</option>
-              <option>8</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
             </select>
             <label htmlFor="categories">Categories*</label>
             <select
@@ -139,14 +143,14 @@ class AddActivity extends React.Component {
               id="categories"
               required>
               <option value="">Select a category</option>
-              {this.state.categories.map((category, i) =>
+              {this.context.categories.map((category, i) =>
                 <option key={i}>{category.category}</option>
               )}
             </select>
+            <p>{this.state.error}</p>
             <button
               className='add-button'
               type='submit'
-              disabled={!(this.state.name && this.state.content)}
             >
               Submit
             </button>

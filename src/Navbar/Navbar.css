@@ -8,6 +8,14 @@ ul {
   list-style: none;
 }
 
+.navbar-nav {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 #top-navbar {
   background-color: #DF928E;
   padding: 0;
@@ -23,10 +31,6 @@ ul {
   font-size: 18px;
 }
 
-.navbar-nav {
-  display: block;
-}
-
 @media all and (min-width:635px) {
   #top-navbar a {
     font-size: 24px;
@@ -36,5 +40,9 @@ ul {
 @media all and (min-width:509px) {
   .navbar-nav {
     display: flex;
+  }
+
+  .open-button {
+    display: none;
   }
 }
