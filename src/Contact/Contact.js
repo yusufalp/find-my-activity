@@ -7,7 +7,7 @@ export default function Contact() {
       <header className='contact-page'>
         <h2>Get in Touch</h2>
       </header>
-      <section>
+      <section className="contact">
         <form
           action="https://formspree.io/xaypjzbq"
           method="POST"

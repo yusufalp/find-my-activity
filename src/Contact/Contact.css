@@ -1,5 +1,5 @@
 .send-content {
-  margin: 0;
+  margin: auto;
   padding: 0;
   width: 100%;
 }
@@ -10,16 +10,22 @@
   margin-top: 24px;
 }
 
+.contact form {
+  width: 50%;
+}
+
+.contact label {
+  margin-top: 24px;
+}
+
 @media all and (min-width:590px) {
   .send-content {
     margin: 0;
     padding: 0;
-    width: 80%;
   }
   
   .send-button {
     margin-left: 0;
-    width: 64%;
     margin-top: 24px;
   }
 }

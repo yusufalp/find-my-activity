@@ -87,7 +87,6 @@ class AddActivity extends React.Component {
           </p>
         </header>
         <section>
-          <p>* = required fields</p>
           <form method="get" onSubmit={e => this.handleDataSubmit(e)}>
             <label htmlFor="name">Name*</label>
             <input
@@ -147,7 +146,8 @@ class AddActivity extends React.Component {
                 <option key={i}>{category.category}</option>
               )}
             </select>
-            <p>{this.state.error}</p>
+            <p className="required">* = required fields</p>
+            <p className="error">{this.state.error}</p>
             <button
               className='add-button'
               type='submit'

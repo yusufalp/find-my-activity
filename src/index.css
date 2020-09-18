@@ -1,7 +1,5 @@
 body {
   color: #1D201F;
-  width: 80%;
-  margin: auto;
   font-family: 'Grandstander', cursive, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -21,7 +19,7 @@ code {
 }
 
 header {
-  margin-top: 225px;
+  margin-top: 80px;
   margin-bottom: 60px;
   text-align: center;
 }
@@ -30,16 +28,21 @@ footer {
   margin-top: 120px;
 }
 
+main {
+  width: 80%;
+  margin: auto;
+}
+
 h1 {
-  font-size: 36px;
+  font-size: 48px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -53,7 +56,8 @@ textarea,
 select,
 form button {
   display: block;
-  width: 100%;
+  width: 60%;
+  margin: auto;
 }
 
 label {
@@ -77,20 +81,13 @@ form button {
     font-size: 24px;
   }
 
-  p{
+  p {
     font-size: 16px;
   }
 
-  header {
-    margin-top: 150px;
-  }
-
-  input,
-  label,
-  textarea,
-  select,
-  form button {
-    width: 50%;
-    margin-left: 10%;
+  form,
+  main {
+    width: 80%;
+    margin: auto;
   }
 }
