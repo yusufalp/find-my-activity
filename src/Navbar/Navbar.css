@@ -8,16 +8,6 @@ ul {
   list-style: none;
 }
 
-.open-button {
-  padding: 0;
-  font-size: 36px;
-  margin: 12px 0 0 0;
-}
-
-.navbar-nav {
-  display: none;
-}
-
 .show {
   display: block;
 }
@@ -40,15 +30,5 @@ ul {
 @media all and (min-width:635px) {
   #top-navbar a {
     font-size: 24px;
-  }
-}
-
-@media all and (min-width:509px) {
-  .navbar-nav {
-    display: flex;
-  }
-
-  .open-button {
-    display: none;
   }
 }
