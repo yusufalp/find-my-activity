@@ -5,6 +5,7 @@ import Navbar from './Navbar/Navbar';
 import Home from './Home/Home';
 import FindActivity from './FindActivity/FindActivity';
 import AddActivity from './AddActivity/AddActivity';
+import Success from './Success/Success';
 import About from './About/About';
 import Contact from './Contact/Contact';
 import ActivityContext from './ActivityContext/ActivityContext';
@@ -60,6 +61,10 @@ class App extends React.Component {
             <Route
               path='/add'
               component={AddActivity}
+            />
+            <Route
+              path='/success'
+              component={Success}
             />
             <Route
               path='/about'

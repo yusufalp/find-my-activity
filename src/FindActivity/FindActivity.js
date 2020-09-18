@@ -56,7 +56,7 @@ class FindActivity extends React.Component {
               <p>Details: {result.content}</p>
               <p>Duration: {result.duration}</p>
               <p>Materials: {result.materials}</p>
-              <p>Age Group: {result.ageGroup}</p>
+              <p>Age Group: {result.agegroup}</p>
             </section>
           )
         }

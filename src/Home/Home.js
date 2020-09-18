@@ -10,14 +10,35 @@ export default function Home() {
         <Link to='/find' className="home-links">Find Activity</Link>
         <Link to='/add' className="home-links">Add Activity</Link>
       </header>
-      <section>
-        <h2>What is this website?</h2>
-        <p>
-          Find My Activity has been created with work-from-home parents in mind. The purpose of this
-          website is to provide activities for children to learn while their parents are working. Find My Activity
-          is designed by the community members for the community members.
-              </p>
-      </section>
+
+      <div className="container text-center">
+        <div className="row">
+          <div className="col-md-4">
+            <h3>Save time</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Expedita quo quos, reiciendis
+              dignissimos perferendis voluptas tempora provident.
+            </p>
+          </div>
+          <div className="col-md-4">
+            <h3>Give back to community</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Expedita quo quos, reiciendis
+              dignissimos perferendis voluptas tempora provident.
+            </p>
+          </div>
+          <div className="col-md-4">
+            <h3>Enjoy</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Expedita quo quos, reiciendis
+              dignissimos perferendis voluptas tempora provident.
+            </p>
+          </div>
+        </div>
+      </div>
       <hr />
       <section>
         <h2>How to use this website?</h2>

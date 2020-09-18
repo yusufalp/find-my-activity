@@ -8,7 +8,7 @@ export default function About() {
       </header>
       <hr />
       <section>
-        <h2>What is this page is about?</h2>
+        <h2>What is this site is about?</h2>
         <p>
           Find My Activity has been created with work-from-home
           parents in mind. The purpose of this website is to provide
@@ -18,7 +18,7 @@ export default function About() {
       </section>
       <hr />
       <section>
-        <h2>Why did we do this page?</h2>
+        <h2>Why did we do this site?</h2>
         <p>
           You asked and we listened. Parent who are working from home are finding it hard to
           come up with ideas for their children to work on. This website brings the community together 
