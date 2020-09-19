@@ -10,6 +10,7 @@ Find My Activity has been created with work-from-home parents in mind. The purpo
 React, Node, Express, PostgreSQL
 
 API is hosted on Heroku
+
 Live web is hosted on Vercel
 
 ## Screenshots
