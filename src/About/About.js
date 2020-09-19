@@ -27,6 +27,7 @@ export default function About() {
         </p>
         {/* <img src="/images/yusuf-alp.jpg" alt="profile-pic" /> */}
       </section>
+      <img className="group-kids" src="/images/children.png" alt="group of children"></img>
     </div>
   )
 }

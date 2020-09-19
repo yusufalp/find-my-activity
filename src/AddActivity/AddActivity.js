@@ -156,6 +156,7 @@ class AddActivity extends React.Component {
             </button>
           </form>
         </section>
+        <img className="group-kids" src="/images/activities.png" alt="children with activities"></img>
       </div>
     )
   }

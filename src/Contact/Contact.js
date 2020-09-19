@@ -13,14 +13,15 @@ export default function Contact() {
           method="POST"
         >
           <label className="send-content">Your email:
-            <input className="send-content" type="text" name="_replyto" />
+            <input className="send-content" type="text" name="_replyto" placeholder="example@email.com"/>
           </label>
           <label className="send-content"> Your message:
-            <textarea className="send-content" name="message" rows="8" ></textarea>
+            <textarea className="send-content" name="message" rows="8" placeholder="Please be as detailed as possible"></textarea>
           </label>
           <button className="send-button" type="submit">Send</button>
         </form>
       </section>
+      <img className="group-kids" src="/images/children-jumping.png" alt="group of kids"></img>
     </div>
   )
 }

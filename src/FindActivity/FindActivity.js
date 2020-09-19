@@ -1,6 +1,5 @@
 import React from 'react';
 import ActivityContext from '../ActivityContext/ActivityContext';
-import './FindActivity.css';
 
 class FindActivity extends React.Component {
   static contextType = ActivityContext;
@@ -60,6 +59,7 @@ class FindActivity extends React.Component {
             </section>
           )
         }
+        <img className="group-kids" src="/images/children-searching.png" alt="kids searching"></img>
       </div>
     )
   }

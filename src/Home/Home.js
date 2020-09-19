@@ -43,7 +43,7 @@ export default function Home() {
         </div>
       </div>
 
-      <img className="group-kids" src="/images/group-kids.jpg" alt="group of kids"></img>
+      <img className="group-kids" src="/images/group-kids.png" alt="group of kids"></img>
       <hr />
       <section>
         <h2>How to use this website?</h2>

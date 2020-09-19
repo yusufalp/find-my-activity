@@ -1,6 +1,5 @@
 .send-content {
   margin: auto;
-  padding: 0;
   width: 100%;
 }
 
@@ -16,6 +15,12 @@
 
 .contact label {
   margin-top: 24px;
+  font-family: 'B612', sans-serif;
+}
+
+.contact input,
+.contact textarea {
+  padding: 8px 4px;
 }
 
 @media all and (min-width:590px) {
