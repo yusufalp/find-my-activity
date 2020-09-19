@@ -1,12 +1,10 @@
 .required {
-  width: 60%;
   margin: 0 auto;
   text-align: right;
   padding-top: 24px;
 }
 
 .error {
-  width: 60%;
   margin: auto;
   color: #C58882;
   margin-top: 12px

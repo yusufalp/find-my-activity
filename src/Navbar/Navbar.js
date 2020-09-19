@@ -13,11 +13,12 @@ class Navbar extends React.Component {
   }
   render() {
     return (
-      <nav id="top-navbar" className="navbar navbar-expand-sm fixed-top">
+      <nav id="top-navbar" className="navbar navbar-expand-sm">
         <Link to="/"><img src="favicon.ico" alt="Brand logo" /></Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i className="fas fa-bars"></i>
         </button>
+
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">

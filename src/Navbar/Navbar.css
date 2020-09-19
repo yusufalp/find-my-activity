@@ -20,7 +20,7 @@ ul {
 .nav-link {
   color: #1D201F;
   font-weight: 700;
-  font-size: 1.5rem;
+  height: 30px;
 }
 
 #top-navbar a {
