@@ -6,6 +6,12 @@ Find My Activity has been created with work-from-home parents in mind. The purpo
 
 [https://find-my-activity.yusufalp.vercel.app/](https://find-my-activity.yusufalp.vercel.app/)
 
+## Technologies Used
+React, Node, Express, PostgreSQL
+
+API is hosted on Heroku
+Live web is hosted on Vercel
+
 ## Screenshots
 ### Home Page
 ![Home Page](https://i.ibb.co/y8xnzXY/1-Home.png)
@@ -18,9 +24,3 @@ Find My Activity has been created with work-from-home parents in mind. The purpo
 
 ### Instructions
 ![Instructions](https://i.ibb.co/Jz6wVXm/4-How-is-this-website-used.png)
-
-## Technologies Used
-React, Node, Express, PostgreSQL
-
-API is hosted on Heroku
-Live web is hosted on Vercel
