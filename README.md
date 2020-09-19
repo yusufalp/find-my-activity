@@ -7,10 +7,16 @@ Find My Activity has been created with work-from-home parents in mind. The purpo
 [https://find-my-activity.yusufalp.vercel.app/](https://find-my-activity.yusufalp.vercel.app/)
 
 ## Screenshots
-
+### Home Page
 ![Home Page](https://i.ibb.co/y8xnzXY/1-Home.png)
+
+### Search Page
 ![Find Activity Page](https://i.ibb.co/pnwHHpN/2-Find-Activity.png)
+
+### About Page
 ![About Page](https://i.ibb.co/wCPBcsC/3-About.png)
+
+### Instructions
 ![Instructions](https://i.ibb.co/Jz6wVXm/4-How-is-this-website-used.png)
 
 ## Technologies Used
