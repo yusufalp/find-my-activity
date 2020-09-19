@@ -1,14 +1,25 @@
 # Find My Activity
 
-## This is the front-end for my project 
+## Find My Activity has been created with work-from-home parents in mind. The purpose of this website is to provide activities for children to learn while their parents are working. Find My Activity is designed by the community members for the community members.
 
-## Available Scripts
+## You can find the live demo at
 
-In the project directory, you can run:
+[https://find-my-activity.yusufalp.vercel.app/](https://find-my-activity.yusufalp.vercel.app/)
 
-### `npm start`
+## Screenshots
 
-Runs the app.
+## Technologies Used
 
+<<<<<<< HEAD
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+=======
+React, Node, Express, PostgreSQL
+
+API is hosted on Heroku
+Live web is hosted on Vercel
+
+
+
+
+>>>>>>> Updated README file
