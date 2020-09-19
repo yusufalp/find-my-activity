@@ -9,17 +9,7 @@ Find My Activity has been created with work-from-home parents in mind. The purpo
 ## Screenshots
 
 ## Technologies Used
-
-<<<<<<< HEAD
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-=======
 React, Node, Express, PostgreSQL
 
 API is hosted on Heroku
 Live web is hosted on Vercel
-
-
-
-
->>>>>>> Updated README file
