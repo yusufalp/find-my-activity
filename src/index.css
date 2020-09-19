@@ -1,5 +1,5 @@
 body {
-  color: #1D201F;
+  color: #052605;
   font-family: 'Grandstander', cursive, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -37,7 +37,7 @@ main {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 h2 {

@@ -11,34 +11,39 @@ export default function Home() {
         <Link to='/add' className="home-links">Add Activity</Link>
       </header>
 
-      <div className="container text-center">
+      <div className="container text-center features">
         <div className="row">
           <div className="col-md-4">
+            <img className="feature-img" src="/images/chronometer.png" alt="timer"></img>
             <h3>Save time</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Expedita quo quos, reiciendis
-              dignissimos perferendis voluptas tempora provident.
+              Sure you can search for many activities online
+              however, Find My Activity is the only place you
+              can find it right away, We do not let you look
+              for the needle in the hay
             </p>
           </div>
           <div className="col-md-4">
+            <img className="feature-img" src="/images/group.png" alt="group of people"></img>
             <h3>Give back to community</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Expedita quo quos, reiciendis
-              dignissimos perferendis voluptas tempora provident.
+              You can share your favorite activities with our community
+              and we are forever grateful for that. After all, it takes a
+              village, am I right?
             </p>
           </div>
           <div className="col-md-4">
+            <img className="feature-img" src="/images/happiness.png" alt="happy family"></img>
             <h3>Enjoy</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Expedita quo quos, reiciendis
-              dignissimos perferendis voluptas tempora provident.
+              These activities are meant for kids (and kids inside you).
+              So you can either enjoy it by yourself or the whole family
             </p>
           </div>
         </div>
       </div>
+
+      <img className="group-kids" src="/images/group-kids.jpg" alt="group of kids"></img>
       <hr />
       <section>
         <h2>How to use this website?</h2>
