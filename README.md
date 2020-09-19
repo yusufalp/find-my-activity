@@ -8,6 +8,11 @@ Find My Activity has been created with work-from-home parents in mind. The purpo
 
 ## Screenshots
 
+![Home Page](https://i.ibb.co/y8xnzXY/1-Home.png)
+![Find Activity Page](https://i.ibb.co/pnwHHpN/2-Find-Activity.png)
+![About Page](https://i.ibb.co/wCPBcsC/3-About.png)
+![Instructions](https://i.ibb.co/Jz6wVXm/4-How-is-this-website-used.png)
+
 ## Technologies Used
 React, Node, Express, PostgreSQL
 
