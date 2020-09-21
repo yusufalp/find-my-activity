@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component renders the UI as expected 1`] = `
+<nav
+  className="navigation-bar"
+  id="top-navbar"
+>
+  <a
+    className="brand-logo"
+    href="/"
+    onClick={[Function]}
+  >
+    <img
+      alt="Brand logo"
+      src="favicon.ico"
+    />
+  </a>
+  <p
+    className="menu-toggler"
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-bars"
+    />
+  </p>
+  <div
+    className="navbar-content "
+  >
+    <ul
+      className="navbar-nav"
+    >
+      <li
+        className="navbar-link"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="navbar-link"
+      >
+        <a
+          href="/find"
+          onClick={[Function]}
+        >
+          Find Activity
+        </a>
+      </li>
+      <li
+        className="navbar-link"
+      >
+        <a
+          href="/add"
+          onClick={[Function]}
+        >
+          Add Activity
+        </a>
+      </li>
+      <li
+        className="navbar-link"
+      >
+        <a
+          href="/about"
+          onClick={[Function]}
+        >
+          About
+        </a>
+      </li>
+      <li
+        className="navbar-link"
+      >
+        <a
+          href="/contact"
+          onClick={[Function]}
+        >
+          Contact
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;

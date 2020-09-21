@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div>
+  <header
+    className="find-header"
+  >
+    <h2>
+      Find Activity
+    </h2>
+    <p>
+      In this section, you can search activities from the categories listed below and click find. The results will be listed below.
+    </p>
+  </header>
+  <section>
+    <form
+      onSubmit={[Function]}
+    >
+      <label
+        htmlFor="category"
+      >
+        Categories
+      </label>
+      <select
+        id="category"
+        name="category"
+        required={true}
+      >
+        <option
+          value=""
+        >
+          Select a category
+        </option>
+      </select>
+      <button
+        className="find-button"
+        type="submit"
+      >
+        Find
+      </button>
+    </form>
+  </section>
+  <hr />
+  <img
+    alt="kids searching"
+    className="group-kids"
+    src="/images/children-searching.png"
+  />
+</div>
+`;

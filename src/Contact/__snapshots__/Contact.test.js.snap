@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div>
+  <header
+    className="contact-page"
+  >
+    <h2>
+      Get in Touch
+    </h2>
+  </header>
+  <section
+    className="contact"
+  >
+    <form
+      action="https://formspree.io/xaypjzbq"
+      method="POST"
+    >
+      <label
+        className="send-content"
+      >
+        Your email:
+        <input
+          className="send-content"
+          name="_replyto"
+          placeholder="example@email.com"
+          type="text"
+        />
+      </label>
+      <label
+        className="send-content"
+      >
+         Your message:
+        <textarea
+          className="send-content"
+          name="message"
+          placeholder="Please be as detailed as possible"
+          rows="8"
+        />
+      </label>
+      <button
+        className="send-button"
+        type="submit"
+      >
+        Send
+      </button>
+    </form>
+  </section>
+  <img
+    alt="group of kids"
+    className="group-kids"
+    src="/images/children-jumping.png"
+  />
+</div>
+`;

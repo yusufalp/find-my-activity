@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Footer from './Footer/Footer';
 import Navbar from './Navbar/Navbar';
 import Home from './Home/Home';
@@ -50,30 +50,32 @@ class App extends React.Component {
           </div>
           <Navbar />
           <main>
-            <Route
-              exact path='/'
-              component={Home}
-            />
-            <Route
-              path='/find'
-              component={FindActivity}
-            />
-            <Route
-              path='/add'
-              component={AddActivity}
-            />
-            <Route
-              path='/success'
-              component={Success}
-            />
-            <Route
-              path='/about'
-              component={About}
-            />
-            <Route
-              path='/contact'
-              component={Contact}
-            />
+            <Switch>
+              <Route
+                exact path='/'
+                component={Home}
+              />
+              <Route
+                path='/find'
+                component={FindActivity}
+              />
+              <Route
+                path='/add'
+                component={AddActivity}
+              />
+              <Route
+                path='/success'
+                component={Success}
+              />
+              <Route
+                path='/about'
+                component={About}
+              />
+              <Route
+                path='/contact'
+                component={Contact}
+              />
+            </Switch>
           </main>
           <Footer />
         </ActivityContext.Provider>

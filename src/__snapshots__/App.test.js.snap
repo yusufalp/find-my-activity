@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="mainpage-header"
+  />
+  <nav
+    className="navigation-bar"
+    id="top-navbar"
+  >
+    <a
+      className="brand-logo"
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Brand logo"
+        src="favicon.ico"
+      />
+    </a>
+    <p
+      className="menu-toggler"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-bars"
+      />
+    </p>
+    <div
+      className="navbar-content "
+    >
+      <ul
+        className="navbar-nav"
+      >
+        <li
+          className="navbar-link"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="navbar-link"
+        >
+          <a
+            href="/find"
+            onClick={[Function]}
+          >
+            Find Activity
+          </a>
+        </li>
+        <li
+          className="navbar-link"
+        >
+          <a
+            href="/add"
+            onClick={[Function]}
+          >
+            Add Activity
+          </a>
+        </li>
+        <li
+          className="navbar-link"
+        >
+          <a
+            href="/about"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="navbar-link"
+        >
+          <a
+            href="/contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <div>
+      <header
+        className="home-header"
+      >
+        <h1>
+          Find My Activity
+        </h1>
+        <a
+          className="home-links"
+          href="/find"
+          onClick={[Function]}
+        >
+          Find Activity
+        </a>
+        <a
+          className="home-links"
+          href="/add"
+          onClick={[Function]}
+        >
+          Add Activity
+        </a>
+      </header>
+      <div
+        className="group"
+      >
+        <div
+          className="item"
+        >
+          <img
+            alt="timer"
+            className="feature-img"
+            src="/images/chronometer.png"
+          />
+          <h3>
+            Save time
+          </h3>
+          <p>
+            Sure you can search for many activities online however, Find My Activity is the only place you can find it right away, We do not let you look for the needle in the hay
+          </p>
+        </div>
+        <div
+          className="item"
+        >
+          <img
+            alt="group of people"
+            className="feature-img"
+            src="/images/group.png"
+          />
+          <h3>
+            Give back to community
+          </h3>
+          <p>
+            You can share your favorite activities with our community and we are forever grateful for that. After all, it takes a village, am I right?
+          </p>
+        </div>
+        <div
+          className="item"
+        >
+          <img
+            alt="happy family"
+            className="feature-img"
+            src="/images/happiness.png"
+          />
+          <h3>
+            Enjoy
+          </h3>
+          <p>
+            These activities are meant for kids (and kids inside you). So you can either enjoy it by yourself or the whole family
+          </p>
+        </div>
+      </div>
+      <img
+        alt="group of kids"
+        className="group-kids"
+        src="/images/group-kids.png"
+      />
+      <hr />
+      <section>
+        <h2>
+          How to use this website?
+        </h2>
+        <p>
+          There are two sections in this website where you can interact about the activities: Find and Add Activity.
+        </p>
+        <p>
+          In the Find Activity section, search activities by the category. Choose outdoors if you want your child to work on something outdoor. Do you want something more like academics related, we got that. How about sports? We are constantly increasing the amount of the categories as we see more requests.
+        </p>
+        <p>
+          In the Add Activity section, you can add your own activity. Have you been doing an activity with your child, share it with our community. Simply add the details of the activity requested and it will be posted for our users to search for.
+        </p>
+        <p>
+          Enjoy!
+        </p>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <section>
+      <h6>
+        Copyrights © Yusuf Alp 
+        2020
+      </h6>
+      <a
+        className="social"
+        href="https://www.linkedin.com/in/yusuf-alp/"
+      >
+        Linkedin
+      </a>
+      <a
+        className="social"
+        href="https://github.com/yusufalp"
+      >
+        Github
+      </a>
+      <a
+        className="social"
+        href="mailto:alpyusuf007@gmail.com"
+      >
+        Email
+      </a>
+    </section>
+    <div
+      id="attribute"
+    >
+      Icons made by 
+      <a
+        href="http://www.freepik.com/"
+        title="Freepik"
+      >
+        Freepik
+      </a>
+       from 
+      <a
+        href="https://www.flaticon.com/"
+        title="Flaticon"
+      >
+        www.flaticon.com
+      </a>
+    </div>
+  </footer>
+</div>
+`;

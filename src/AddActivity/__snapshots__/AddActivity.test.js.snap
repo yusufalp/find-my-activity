@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div>
+  <header>
+    <h2>
+      Add Activity
+    </h2>
+    <p>
+      In this section, you can share your activity with our community by filling out the form below and let people find it by searching through our list of activities. Thank you in advance for sharing.
+    </p>
+  </header>
+  <section>
+    <form
+      method="get"
+      onSubmit={[Function]}
+    >
+      <label
+        htmlFor="name"
+      >
+        Name*
+      </label>
+      <input
+        id="name"
+        name="name"
+        onChange={[Function]}
+        placeholder="Drawing"
+        required={true}
+        type="text"
+      />
+      <label
+        htmlFor="content"
+      >
+        Content*
+      </label>
+      <textarea
+        id="content"
+        name="content"
+        onChange={[Function]}
+        placeholder="Explain in details..."
+        required={true}
+        rows="6"
+        type="text"
+      />
+      <label
+        htmlFor="duration"
+      >
+        Duration* 
+        <span>
+          (in minutes, numbers only)
+        </span>
+      </label>
+      <input
+        id="duration"
+        min="0"
+        name="duration"
+        onChange={[Function]}
+        placeholder="45"
+        required={true}
+        type="number"
+      />
+      <label
+        htmlFor="materials"
+      >
+        Materials
+      </label>
+      <input
+        id="materials"
+        name="materials"
+        onChange={[Function]}
+        placeholder="Pencils, markers and paper"
+        type="text"
+      />
+      <label
+        htmlFor="agegroup"
+      >
+        Age Group*
+      </label>
+      <select
+        id="agegroup"
+        name="agegroup"
+        required={true}
+      >
+        <option
+          value=""
+        >
+          Select an age group
+        </option>
+        <option
+          value="1"
+        >
+          1
+        </option>
+        <option
+          value="2"
+        >
+          2
+        </option>
+        <option
+          value="3"
+        >
+          3
+        </option>
+        <option
+          value="4"
+        >
+          4
+        </option>
+        <option
+          value="5"
+        >
+          5
+        </option>
+        <option
+          value="6"
+        >
+          6
+        </option>
+        <option
+          value="7"
+        >
+          7
+        </option>
+        <option
+          value="8"
+        >
+          8
+        </option>
+      </select>
+      <label
+        htmlFor="categories"
+      >
+        Categories*
+      </label>
+      <select
+        id="categories"
+        name="categories"
+        required={true}
+      >
+        <option
+          value=""
+        >
+          Select a category
+        </option>
+      </select>
+      <p
+        className="required"
+      >
+        * = required fields
+      </p>
+      <p
+        className="error"
+      />
+      <button
+        className="add-button"
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </section>
+  <img
+    alt="children with activities"
+    className="group-kids"
+    src="/images/activities.png"
+  />
+</div>
+`;

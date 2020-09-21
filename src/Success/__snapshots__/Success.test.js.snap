@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div>
+  <h2
+    className="success"
+  >
+    Successful
+  </h2>
+  <p>
+    Your submission is accepted
+  </p>
+  <img
+    alt="children with a heart"
+    className="group-kids"
+    src="/images/success-children.png"
+  />
+</div>
+`;
