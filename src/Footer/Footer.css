@@ -1,4 +1,8 @@
-.social{
+footer {
+  text-align: center;
+}
+
+.social {
   display: block;
   margin: 0 24px;
   text-decoration: none;
