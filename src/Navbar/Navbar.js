@@ -4,7 +4,7 @@ import './Navbar.css';
 
 class Navbar extends React.Component {
   state = {
-    menuVisible: false
+    menuVisible: true
   }
   toggleMenu = () => {
     this.setState({

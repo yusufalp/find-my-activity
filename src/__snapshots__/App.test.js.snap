@@ -30,7 +30,7 @@ exports[`renders the UI as expected 1`] = `
       />
     </p>
     <div
-      className="navbar-content "
+      className="navbar-content open-menu"
     >
       <ul
         className="navbar-nav"
