@@ -25,8 +25,21 @@
 
 .feature-img {
   width: 100px;
-  height: 150px;
+  height: 100px;
   padding: 24px 0;
+}
+
+.group {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0;
+}
+
+.item {
+  width: 90%;
+  padding: 0 3%;
 }
 
 @media all and (min-width:340px) {
@@ -34,7 +47,19 @@
     display: inline;
   }
 }
+
 @media all and (min-width:540px) {
+  .group {
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+
+  .item {
+    align-content: flex-start;
+    justify-content: center;
+    width: 30%;
+  }
 
   .group-kids {
     height: 50%;

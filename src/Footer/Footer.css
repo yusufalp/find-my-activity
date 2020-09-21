@@ -1,14 +1,17 @@
-.social a {
+.social{
   display: block;
   margin: 0 24px;
   text-decoration: none;
   color: #E18F80;
 }
 
+.social:hover {
+  color: #F4E285;
+}
 
-.attribute{
-  color: #E18F80;
+.attribute {
   text-align: center;
+  margin: 0;
 }
 
 .social {
@@ -16,7 +19,7 @@
 }
 
 @media all and (min-width:378px) {
-  .social a {
+  .social {
     display: inline;
   }
 }
