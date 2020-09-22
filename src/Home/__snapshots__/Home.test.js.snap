@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Navbar component renders the UI as expected 1`] = `
+exports[`Home component renders the UI as expected 1`] = `
 <div>
   <header
     className="home-header"

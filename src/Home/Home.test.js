@@ -4,7 +4,7 @@ import Home from './Home';
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
 
-describe('Navbar component', () => {
+describe('Home component', () => {
   it('renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(
