@@ -5,7 +5,7 @@ exports[`Footer component renders the UI as expected 1`] = `
   <section>
     <h6>
       Copyrights © Yusuf Alp 
-      2020
+      2021
     </h6>
     <a
       className="social"
