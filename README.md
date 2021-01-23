@@ -5,18 +5,15 @@ Find My Activity has been created with work-from-home parents in mind. The purpo
 Live demo can be access at [https://find-my-activity.yusufalp.vercel.app/](https://find-my-activity.yusufalp.vercel.app/)
 
 ## Technologies Used
-`React 16.13`
 
-`Node 12.18`
-
-`Express 4.17`
-
-`PostgreSQL 12.4`
+- `React 16.13`
+- `Node 12.18`
+- `Express 4.17`
+- `PostgreSQL 12.4`
 
 API is hosted on Heroku
 
 Live web is hosted on Vercel
-
 
 ### How to run this program locally
 
@@ -47,16 +44,21 @@ sending us a pull request.
 https://github.com/yusufalp/find-my-activity/issues
 
 ## Screenshots
+
 ### Home Page
+
 ![Home Page](https://i.ibb.co/y8xnzXY/1-Home.png)
 
 ### Search Page
+
 ![Find Activity Page](https://i.ibb.co/pnwHHpN/2-Find-Activity.png)
 
 ### About Page
+
 ![About Page](https://i.ibb.co/wCPBcsC/3-About.png)
 
 ### Instructions
+
 ![Instructions](https://i.ibb.co/Jz6wVXm/4-How-is-this-website-used.png)
 
 #### Developed by Yusuf Alp
